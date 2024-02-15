@@ -85,7 +85,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #8AEA92;
+/*   background-color: #8AEA92; */
+  background-image: linear-gradient(#bde0fe, #a2d2ff, #219ebc);
   opacity: 1;
   border-radius: 50px;
   flex-direction: column;
@@ -108,4 +109,12 @@ body {
   border-radius: 20px;
   border: none;
   font-size: 30px;
+}
+
+#reset:hover{
+  outline: 1px solid #333;
+}
+
+#playAgain:hover{
+  outline: 3px solid #333;
 }
