@@ -71,6 +71,7 @@ let reset = () => {
     boxes.forEach((box) => {
       box.innerText = "";
       box.disabled = false;
+      winnerFound = false;
       turnO = false;
       moves = 0;
       turn();
