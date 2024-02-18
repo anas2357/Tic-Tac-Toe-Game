@@ -97,7 +97,7 @@ const checkWinner = () => {
     let pos3val = boxes[c].innerText;
 
     if(pos1val !== "" && pos1val === pos2val && pos2val === pos3val){
-      drawCon.innerText = "Congractulations!";
+      drawCon.innerText = "Congratulations!";
       won.style.visibility = "visible";
       winner.innerText = `Player '${pos1val}' Won`;
       winnerFound = true;
